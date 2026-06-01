@@ -18,7 +18,7 @@ public class TreinoUseCase {
     }
 
     public List<Treino> listaTreino() {
-        return gateway.listaTreino();
+        return gateway.listaTreinos();
     }
 
     public void excluirTreino(Integer id) {

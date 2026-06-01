@@ -18,7 +18,7 @@ public class AlunoUseCase {
     }
 
     public List<Aluno> listaAluno() {
-        return gateway.listaAluno();
+        return gateway.listaAlunos();
     }
 
     public void excluirAluno(Integer id) {
